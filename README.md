@@ -2,9 +2,12 @@
 ### Anthony Tafoya, Derek Xu, Leon Jia
 ### UC Berkeley, Presented to the Berkeley EECS & AI Research Symposium 
 
-https://github.com/Anthony-Tafoya/Form_Trainer/assets/87080582/2dfaa529-d666-4562-99c8-e009b75c0e14
+https://github.com/Anthony-Tafoya/Form_Trainer/assets/87080582/f990a39a-dbe6-48f6-a2b9-556dd517450e
 
 ### [[paper work is based on]](https://arxiv.org/pdf/1808.07371.pdf) 
+
+## Abstract 
+Our project tackles the question of extending previous work done in the UC Berkeley paper Everybody Dance Now to poses such as yoga and exercise regimes. The paper Everybody Dance Now presents a simple method for "do as I do" motion transfer, transferring a source dancer’s movements onto an amateur target. This is accomplished via a video-to-video translation by using pose as an intermediate representation. We identified a specific niche in the space of pose correction in yoga poses and weight training. This is done through two steps: video-to-pose and pose-to-video. Video-to-pose utilizes computer vision and the pose detection library OpenPose. Pose-to-video utilizes GANs to generate a realistic-looking model of our target subject. The bulk of the project was ideating and finding new ways to extend this technology to be more applicable for industry and consumer-facing applications. The broader ambition was to develop a model that can be used within a fitness app, where users can upload a video of themselves performing certain movements, and generalize it to yoga poses and weight training exercises. One possible extension is to add in some sort of corrective feature, taking into account how the user is currently performing their action and showing how it compares relative to how the action is ideally performed, and giving specific feedback to improve upon. 
 
 ## Prerequisites 
 1. [PyTorch](https://pytorch.org/)
